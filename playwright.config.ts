@@ -32,9 +32,9 @@ export default defineConfig({
     actionTimeout: 10_000,    // ← each action gets 10s
     navigationTimeout: 15_000, // ← page navigation gets 15s
 
-    launchOptions: {
-      slowMo: 2000,      // watch actions — 1 second between each
-    },
+    // launchOptions: {
+    //   slowMo: 2000,      // watch actions — 1 second between each
+    // },
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
